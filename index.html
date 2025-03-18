@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Watch Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Link to Manifest File -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- AOS (Animate on Scroll) -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Luxury Watch Store</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#watches">Watches</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Masterpieces in Time</h2>
+      <p>Discover the artistry and innovation behind every timepiece.</p>
+      <a href="#watches" class="shop-now">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="watches" class="watches">
+    <h2>Our Exclusive Collection</h2>
+    <div class="watch-list">
+      <div class="watch-item" data-aos="fade-up">
+        <img src="ethos.avif" alt="Luxury Watch 1">
+        <h3>Luxury Timepiece</h3>
+        <p class="price">$199</p>
+        <a href="#" class="shop-now">Shop Now</a>
+      </div>
+      <div class="watch-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="astro.avif" alt="Luxury Watch 2">
+        <h3>Elegant Sport</h3>
+        <p class="price">$249</p>
+        <a href="#" class="shop-now">Shop Now</a>
+      </div>
+      <div class="watch-item" data-aos="fade-up" data-aos-delay="400">
+        <img src="jacob-co-astronomia-regulator.avif" alt="Luxury Watch 3">
+        <h3>Classic Heritage</h3>
+        <p class="price">$149</p>
+        <a href="#" class="shop-now">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We specialize in providing the finest handcrafted timepieces, designed to transcend trends and become treasures.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to our customer service team for personalized assistance.</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luxury Watch Store. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+</body>
+</html>
+

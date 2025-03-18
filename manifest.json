@@ -1,0 +1,25 @@
+
+
+
+  {
+    "name": "Luxury Watch Store",
+    "short_name": "LuxWatch",
+    "description": "Premium Watches for Every Moment",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#111111",
+    "theme_color": "#f4a261",
+    "icons": [
+      {
+        "src": "images.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "oriesss.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+  }
+  
